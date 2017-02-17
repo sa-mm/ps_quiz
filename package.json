@@ -1,0 +1,17 @@
+{
+  "name": "ps-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scratch.js",
+  "scripts": {
+    "test": "tape-watch test/*/*.js -o '| tap-spec --color'",
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
+    "tape-watch": "^2.2.4"
+  }
+}
