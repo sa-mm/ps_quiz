@@ -1,5 +1,5 @@
 var test = require('tape');
-var firstFibDigits = require('../../ps_quiz/fibdigits');
+var firstFibDigits = require('../js/fibdigits');
 
 test('1 should return 1', function(t) {
     t.plan(1);

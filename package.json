@@ -4,7 +4,7 @@
   "description": "",
   "main": "scratch.js",
   "scripts": {
-    "test": "tape-watch test/*/*.js -o '| tap-spec --color'",
+    "test": "tape-watch test/*.js -o '| tap-spec --color'"
   },
   "author": "",
   "license": "ISC",

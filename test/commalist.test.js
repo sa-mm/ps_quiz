@@ -1,5 +1,5 @@
 var test = require('tape');
-var commaList = require('../../ps_quiz/commalist.js');
+var commaList = require('../js/commalist.js');
 
 test('no items in list should return with ""', function(t) {
     t.plan(1);
